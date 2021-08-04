@@ -23,7 +23,6 @@ pane_navigation_bindings() {
 	tmux bind-key k   select-pane -U
 	tmux bind-key C-k select-pane -U
 	tmux bind-key l   select-pane -R
-	tmux bind-key C-l select-pane -R
 }
 
 window_move_bindings() {
